@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Annuaire</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="numero">Numero</string>
+    <string name="email">Email</string>
+    <string name="job">Job</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="title_activity_update_delete_pop_up">UpdateDeletePopUpActivity</string>
+    <string name="update_contact">Update Contact</string>
+    <string name="delete_contact">Delete Contact</string>
+</resources>

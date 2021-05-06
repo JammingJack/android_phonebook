@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/conatactViewMarginTop"
+        android:weightSum="4">
+
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/first_name"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textFontWeight="900"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/fn_filed"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/conatactViewMarginTop"
+        android:weightSum="4">
+
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/last_name"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textFontWeight="900"
+
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/ln_filed"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textSize="14sp"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/conatactViewMarginTop"
+        android:weightSum="4">
+
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/numero"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textFontWeight="900"
+
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/num_filed"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textSize="14sp"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/conatactViewMarginTop"
+        android:weightSum="4">
+
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/email"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textFontWeight="900"
+
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/email_field"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textSize="14sp"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/conatactViewMarginTop"
+        android:weightSum="4">
+
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/job"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textFontWeight="900"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/job_filed"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textSize="14sp"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+
+    </LinearLayout>
+</LinearLayout>
